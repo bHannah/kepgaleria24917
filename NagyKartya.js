@@ -23,13 +23,13 @@ export default class NagyKartya{
     //tagfüggvények:
     kartyaMegjelenit(){
         this.#szuloElem.append(`
-            <button class="col-1 bal"><<</button>
+            <button class="col-1 bal btn btn-light"><<</button>
             <div class="card col-10">
             <div class="card-body">
             <h3>${this.#obj.cim}</h3>
                 <p class="card-text"><img src="${this.#obj.url}" alt="${this.#obj.cim}" style="width:100%"></p>
             </div></div>
-            <button class="col-1 jobb">>></button>`
+            <button class="col-1 jobb btn btn-light">>></button>`
             )
     }
     //eseménykezelő
