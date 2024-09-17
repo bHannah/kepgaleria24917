@@ -6,6 +6,7 @@ export default class Jatekter{
     constructor(lista, TARTALOM){
         this.#lista=lista
         this.#TARTALOM=TARTALOM
+        this.#TARTALOM.empty();
         this.kartyaKiir()
     }
     kartyaKiir(){
