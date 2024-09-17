@@ -1,6 +1,6 @@
 import { kepekLISTA } from "./adat.js";
-import Jatekter from "./Jatekter.js";
-import NagyKartya from "./NagyKartya.js";
+import Jatekter from "./view/Jatekter.js";
+import NagyKartya from "./view/NagyKartya.js";
 
 const galeriaTaroloElem=$(".nagyKep");
 const taroloElem=$(".kartyaDiv");
